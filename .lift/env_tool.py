@@ -27,7 +27,7 @@ def run(path):
 def env_to_tool_note(key, value):
     return {
         "type": "Env Tool",
-        "message": key,
+        "message": key + ": " + value,
         "file": "README.md",
         "line": 1
     }
